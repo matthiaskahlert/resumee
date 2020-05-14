@@ -1,6 +1,6 @@
 # Site settings
-title: "Jekyll Resume Template"
-description: "A resume template for Jekyll and GitHub Pages sites."
+title: "Resume Matthias Kahlert"
+description: "A resume from Matthias Kahlert which is using a template for Jekyll and GitHub Pages sites."
 
 # Build settings
 markdown: kramdown
@@ -28,13 +28,13 @@ resume_looking_for_work:        "yes"
 # Decide which sections to use
 # comment out to hide
 resume_section_experience:      true
-#resume_section_education:       true
+# resume_section_education:       false
 resume_section_projects:        true
 resume_section_skills:          true
 resume_section_recognition:     true
 resume_section_links:           true
-#resume_section_associations:    true
-# resume_section_interests:       true
+# resume_section_associations:    false
+resume_section_interests:       true
 
 # Resume social links
 # uncomment the options you wish to display, and add your own URL
