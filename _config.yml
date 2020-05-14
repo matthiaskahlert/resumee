@@ -10,12 +10,12 @@ sass:
 
 # Resume settings
 resume_avatar:                  "true"
-resume_name:                    "GitHub Teacher"
-resume_title:                   "Professional Trainer"
-resume_contact_email:           "services@github.com"
-resume_contact_telephone:       "1-(877)-448-4820"
-resume_contact_address:         "San Francisco, California"
-resume_header_contact_info: "San Francisco, California | 1-(877)-448-4820 | services@github.com"
+resume_name:                    "Matthias Kahlert"
+resume_title:                   "QA lead"
+resume_contact_email:           "m.kahlert@bigpoint.com"
+resume_contact_telephone:       "+4915142262532"
+resume_contact_address:         "Hamburg, Germany"
+resume_header_contact_info: "Hamburg, Germany | +4915142262532 | m.kahlert@bigpoint.com"
 resume_header_intro: "<p>Charting the knowledge of the Internet, just like Galileo charted the stars.</p>"
 
 
@@ -39,13 +39,13 @@ resume_section_associations:    true
 # Resume social links
 # uncomment the options you wish to display, and add your own URL
 resume_social_links:
-  resume_github_url:            "https://github.com/jglovier/resume-template"
-  resume_twitter_url:           "http://twitter.com/jglovier"
-  resume_dribbble_url:          "https://dribbble.com/jag"
+  resume_github_url:            "https://github.com/matthiaskahlert"
+  #resume_twitter_url:           "http://twitter.com/jglovier"
+  #resume_dribbble_url:          "https://dribbble.com/jag"
   # resume_facebook_url:          "insert Facebook URL here"
-  resume_linkedin_url:          "https://www.linkedin.com/in/joelglovier"
+  #resume_linkedin_url:          "https://www.linkedin.com/in/joelglovier"
   # resume_instagram_url:         "insert your Instagram URL here"
-  resume_website_url:           "http://joelglovier.com"
+  resume_website_url:           "https://www.xing.com/profile/Matthias_Kahlert4"
 resume_print_social_links:      true
 
 # Design settings
