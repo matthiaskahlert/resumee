@@ -2,15 +2,17 @@
 # uncomment the urls if you wish to display them, and add your own URL
 
 # probot
-- project: probot
-  role: Contributor
-  duration: 2016 &mdash; Present
-  url: "https://github.com/probot/probot"
-  description: A framework for building GitHub Apps to automate and improve your workflow
-
-# GitHub Classroom
-- project: GitHub Classroom
-  role: Contributor
-  duration: 2015 &mdash; Present
-  url: "https://github.com/education/classroom"
-  description: GitHub Classroom automates repository creation and access control, making it easy for teachers to distribute starter code and collect assignments on GitHub.
+- project: Seafight
+  role: Lead Testmanager
+  duration: 2010 &mdash; Present
+  url: "https://www.seafight.com/"
+  description: Seafight is a high seas pirate browser MMORPG game developed and published by Bigpoint. The game revolves around ship warfare on the open seas as player fight against monsters in PvE and against each other in PvP battles in search of treasure and gold. As of May 2020, there are over 48 million registered users of the game, available in 21 different languages. 
+  My Business impact:
+  Leading the assigned QA team.
+  Controlling project-internal tests and external outsourcing tests.
+  Ensuring testing and reporting conforms to the QA department standards, information flow and knowledge sharing.
+  Responsible for the product quality.
+  Maintaining QA -strategy,-processes , -workflows and testing methods for the assigned project.
+  Analyzing feature specifications to plan and size QA efforts, provide feedback and assigning of tasks to the test team.
+  Training of the assigned test team.
+  
