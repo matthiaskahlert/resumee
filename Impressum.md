@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Impressum"
-permalink: https://matthiaskahlert.github.io/resumee/impressum
+permalink: https://matthiaskahlert.github.io/resumee/Impressum
 ---
 ## Impressum
 **Angaben gemäß § 5 TMG**
