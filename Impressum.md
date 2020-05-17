@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Impressum"
+title: "impressum"
 permalink: https://matthiaskahlert.github.io/resumee/impressum
 ---
 
