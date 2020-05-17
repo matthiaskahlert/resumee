@@ -3,22 +3,34 @@
 # Testmanagement & Top Skills
 
 - skill: Top Skills
-  description: Manage a testing project by implementing the mission, goals and testing processes established for the testing organization. Organize and lead risk identification and risk analysis sessions and use the results of such sessions for test estimation, planning, monitoring and control.Create and implement test plans consistent with organizational policies and test strategies. Continuously monitor and control the test activities to achieve project objectives. Assess and report relevant and timely test status to project stakeholders. Identify skills and resource gaps in their test team and participate in sourcing adequate resources. Identify and plan necessary skills development within their test team. Propose a business case for test activities which outlines the costs and benefits expected. Ensure proper communication within the test team and with other project stakeholders. Participate in and lead test process improvement initiatives.
+  description: Manage a testing project by implementing the mission, goals and testing processes established for the testing organization.  
+  Organize and lead risk identification and risk analysis sessions and use the results of such sessions for test estimation, planning, monitoring and control.  
+  Create and implement test plans consistent with organizational policies and test strategies.  
+  Continuously monitor and control the test activities to achieve project objectives.  
+  Assess and report relevant and timely test status to project stakeholders.  
+  Identify skills and resource gaps in their test team and participate in sourcing adequate resources.  
+  Identify and plan necessary skills development within their test team.  
+  Propose a business case for test activities which outlines the costs and benefits expected.  
+  Ensure proper communication within the test team and with other project stakeholders.  
+  Participate in and lead test process improvement initiatives.  
+  
 
 # Leadership & Management
 - skill: Leadership & Management
-  description: Mentoring and training of the assigned test team including performance reviews 
-               
+  description: Leading mentoring and training an international team, haveing advanced knowledge and understanding of QA processes for different strategies, I gained 10 years experience in working in the games industry, I am passionate about games and QA, I have broad knowledge of technical and functional aspects of standard game systems, I am proactive, driven, stress resistant, self-motivated flexible and pragmatic.
     
 
 # istqb
 - skill: ISTQB Certiﬁed Tester Foundation Level
-  description: ISTQB® Foundation Level is relevant across software delivery practices including Waterfall, Agile, DevOps and Continuous Delivery.
-  
+  description: ISTQB® Foundation Level is relevant across software delivery practices including Waterfall, Agile, DevOps and Continuous Delivery.  
+  It includes contents of testing throughot the software lifecycle, fundamentals of testing, static techniques, test design techniques, testmanagemebnet and tool support for testing.  
+    
   
 
 - skill: ISTQB® Certiﬁed Tester Advanced Level, Test Manager
-  description: The Advanced Level qualification is aimed at people who have achieved an advanced point in their careers in software testing. This includes people in roles such as testers, test analysts, test engineers, test consultants, test managers, user acceptance testers and software developers.  This Advanced Level qualification is also appropriate for anyone who wants a deeper understanding of software testing, such as project managers, quality managers, software development managers, business analysts, IT directors and management consultants.
+  description: The Advanced Level qualification is aimed at people who have achieved an advanced point in their careers in software testing.  
+  It includes the testing process testmanagement, testdocumentation, testestimation, standards & metrics, reviews for testmanagers, defect management, improving the testprocess, testtools and automation for the testmanager, people skills and team composition.  
+  
   
   # Languages
 - skill: Languages
@@ -26,4 +38,4 @@
   
   # tools
 - skill: Tools
-  description: GitLab, SVN, MySQL, Docker, Jenkins, Python, Confluence, Jira, Sharepoint & MS365, Selenium, Mantis, web based testing tools
+  description: GitLab/GitHub, SVN, MySQL, Docker, Jenkins, Python, Confluence, Jira, Sharepoint & MS365, Selenium, Mantis, web based testing tools
