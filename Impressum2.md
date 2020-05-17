@@ -1,7 +1,5 @@
 ---
-layout: page
+layout: default
 title: "Impressum"
-permalink: https://matthiaskahlert.github.io/resumee/Impressum2.md
-
 ---
 ## Impressum
