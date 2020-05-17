@@ -1,9 +1,8 @@
 ---
 layout: page
-title: "Impressum"
+title: "impressum"
 permalink: https://matthiaskahlert.github.io/resumee/impressum
 ---
-
 ## Impressum
 **Angaben gemäß § 5 TMG
 **Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV**
@@ -12,8 +11,6 @@ Matthias Kahlert
 Alardusstraße 13  
 20255 Hamburg  
 GERMANY  
-
-
 
 **Contact:**
 E-Mail: m.kahlert@bigpoint.net
