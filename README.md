@@ -1,4 +1,4 @@
-** I am using this tutorial to create my resumee.
+**I am using this tutorial to create my resumee.
 
 
 
