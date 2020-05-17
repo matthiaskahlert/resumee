@@ -5,7 +5,7 @@ permalink: https://matthiaskahlert.github.io/resumee/impressum
 ---
 
 ## Impressum
-**Angaben gemäß § 5 TMG
+**Angaben gemäß § 5 TMG**
 **Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV**
 
 Matthias Kahlert  
