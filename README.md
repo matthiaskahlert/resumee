@@ -1,4 +1,4 @@
-**I am using this tutorial to create my resumee.
+**I have utilized a resume template from github learning lab repo create my resumee.
 
 
 
