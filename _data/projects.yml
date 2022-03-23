@@ -1,12 +1,13 @@
 # Projects
 # uncomment the urls if you wish to display them, and add your own URL
 
-# probot
+# QA director responsibilities
 - project: Responsibilities
   role: Studio QA Director Bigpoint
   duration: 2021 &mdash; Present
   url: "https://www.bigpoint.net/"
   description: Ensure the updates and releases to players contains no critical or blocking issues which will preventing them to enjoy our games <br />Provide feedback and suggestions to product team from the players’ perspective to improve the quality and fun of our games <br />Create automation testing scripts to make all the routine cases to be handled by the machines <br />Expand and maintain the relationship between studio and external vendors incl. freelancers  <br />Mentoring on the professional skillset and career development of QA in the studio  <br />Maintain the performance in the team: identify high performers and ensure their steady nature, identify the less performers and ensure their improvement  <br />Hire, develop, mentor and supervise team member  <br />Organize knowledge and experience sharing within the team  <br />
+# Seafight
 - project: Seafight
   role: Lead Testmanager
   duration: 2010 &mdash; Present
