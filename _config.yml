@@ -43,7 +43,7 @@ resume_social_links:
   #resume_twitter_url:           "insert twitter URL here"
   #resume_dribbble_url:          "insert dribble URL here"
   # resume_facebook_url:          "insert Facebook URL here"
-  #resume_linkedin_url:          "insert linkedin URL here"
+  resume_linkedin_url:          "https://www.linkedin.com/in/matthias-kahlert/"
   # resume_instagram_url:         "insert your Instagram URL here"
   resume_website_url:           "https://www.xing.com/profile/Matthias_Kahlert4"
 resume_print_social_links:      true
