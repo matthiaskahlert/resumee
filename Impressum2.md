@@ -13,7 +13,7 @@ Alardusstraße 13
 GERMANY  
 
 **Contact:**
-E-Mail: m.kahlert@bigpoint.net
+E-Mail: m-kahlert ( at ) posteo.de
 
 **Datenschutzerklärung (DSGVO)**
 Auf dieser Webseite werden keine personenbezogenen Daten erhoben, gespeichert oder verarbeitet. Es werden keine Cookies verwendet.
