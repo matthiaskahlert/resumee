@@ -4,12 +4,12 @@
 # QA director responsibilities
 - project: Responsibilities
   role: Studio QA Director Bigpoint
-  duration: 2021 &mdash; Present
+  duration: 2021 &mdash; 2023
   url: "https://www.bigpoint.net/"
   description: Ensure the updates and releases to players contains no critical or blocking issues which will preventing them to enjoy our games. <br />Provide feedback and suggestions to product team from the players’ perspective to improve the quality and fun of our games. <br />Expand and maintain the relationship between studio and external vendors incl. freelancers.  <br />Mentoring on the professional skillset and career development of QA in the studio.  <br />Maintain the performance in the team to identify high performers and ensure their steady nature, identify the less performers and ensure their improvement.  <br />Hire, develop, mentor and supervise team member.  <br />Organize knowledge and experience sharing within the team.
 # Seafight
 - project: Seafight
   role: Lead Testmanager
-  duration: 2010 &mdash; Present
+  duration: 2010 &mdash; 2023
   url: "https://www.seafight.com/"
   description: Seafight is a high seas pirate browser MMORPG game developed and published by Bigpoint. <br />The game revolves around ship warfare on the open seas as player fight against monsters in PvE and against each other in PvP battles in search of treasure and gold. <br />As of March 2022, there are over 48 million registered users of the game, available in 17 different languages.<br />The lifetime Revenue of this project is aprox 200 mio Euro. <hr> My Business impact at Seafight is leading the assigned QA team, Controlling project-internal tests and external outsourcing tests, ensuring testing and reporting conforms to the QA department standards, information flow and knowledge sharing. Responsible for the product quality. Maintaining QA -strategy,-processes , -workflows and testing methods for the assigned project.  Analyzing feature specifications to plan and size QA efforts, provide feedback and assigning of tasks to the test team. Training of the assigned test team.  
