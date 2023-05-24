@@ -22,10 +22,10 @@ Auf dieser Webseite werden keine personenbezogenen Daten erhoben, gespeichert od
 This website does not collect, store or process Personally Identifiable Information (PII). This website does not require the use of cookies.
 
 **Verweis auf Dritte**
-Diese Website wird auf Github als Github Pages gehostet. Die Github Global Privacy Practices sind [hier](https://help.github.com/en/github/site-policy/global-privacy-practices) hinterlegt.
+Diese Website wird auf Github als Github Pages gehostet. Die Github Global Privacy Practices sind [hier](https://docs.github.com/de/site-policy/privacy-policies/github-privacy-statement) hinterlegt.
 
 **Third Party Inclusion**
-This website is hosted by Github using Github Pages. The Github Global Privacy Practices are available [here](https://help.github.com/en/github/site-policy/global-privacy-practices) 
+This website is hosted by Github using Github Pages. The Github Global Privacy Practices are available [here](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement) 
 
 **Haftung für Links auf dieser Website**
 Die Webseite enthält Links zu anderen Webseiten für deren Inhalt wir nicht verantwortlich sind. Haftung für verlinkte Websites besteht für uns nicht, da wir keine Kenntnis rechtswidriger Tätigkeiten hatten und haben, uns solche Rechtswidrigkeiten auch bisher nicht aufgefallen sind und wir Links sofort entfernen würden, wenn uns Rechtswidrigkeiten bekannt werden.
