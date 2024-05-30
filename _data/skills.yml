@@ -7,7 +7,7 @@
   
 
 # Leadership & Management
-- skill: Leadership & Management
+    skill: Leadership & Management
   description: Beeing a Hands-on Testmanager with the ability to work well in a team environment under tight deadlines. High attention to detail and proven ability to independently and simultaneously manage complex, multiple, competing priorities. Expertise in problem solving ambiguous issues through logical thinking, root cause analysis, proactivity Ability to thrive in a high-energy environment where tactical and strategic activities are expected to be driven in parallel. Leading mentoring and training an international team, applying advanced knowledge and understanding of Software QA processes for different strategies. Beeing passionate about games and QA, having broad knowledge of technical and functional aspects of standard game systems.
 
 # istqb Certifications
@@ -28,5 +28,5 @@
 - skill: Tools & Technologies
   description: GitLab/GitHub, SVN, MySQL, Docker, Jenkins, Confluence, Jira, SharePoint & MS365, Selenium, Mantis, web-based testing tools
   
-  skill: Programming Languages
+- skill: Programming Languages
   description: Python
