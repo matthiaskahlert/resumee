@@ -7,7 +7,7 @@
   
 
 # Leadership & Management
-    skill: Leadership & Management
+- skill: Leadership & Management
   description: Beeing a Hands-on Testmanager with the ability to work well in a team environment under tight deadlines. High attention to detail and proven ability to independently and simultaneously manage complex, multiple, competing priorities. Expertise in problem solving ambiguous issues through logical thinking, root cause analysis, proactivity Ability to thrive in a high-energy environment where tactical and strategic activities are expected to be driven in parallel. Leading mentoring and training an international team, applying advanced knowledge and understanding of Software QA processes for different strategies. Beeing passionate about games and QA, having broad knowledge of technical and functional aspects of standard game systems.
 
 # istqb Certifications
@@ -18,13 +18,13 @@
 
 - skill: ISTQB® Certiﬁed Tester Advanced Level, Test Manager
   description: The Advanced Level qualification is aimed at people who have achieved an advanced point in their careers in software testing. It includes the testing process testmanagement, testdocumentation, testestimation, standards & metrics, reviews for testmanagers, defect management, improving the testprocess, testtools and automation for the testmanager, people skills and team composition.  
+    
   
-  
-  # Languages
+# Languages
 - skill: Languages
   description: German (native), English (fluent)
   
-  # tools
+# tools
 - skill: Tools & Technologies
   description: GitLab/GitHub, SVN, MySQL, Docker, Jenkins, Confluence, Jira, SharePoint & MS365, Selenium, Mantis, web-based testing tools
   
