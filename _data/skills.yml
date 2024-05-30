@@ -10,7 +10,7 @@
 - skill: Leadership & Management
   description: Beeing a Hands-on Testmanager with the ability to work well in a team environment under tight deadlines. High attention to detail and proven ability to independently and simultaneously manage complex, multiple, competing priorities. Expertise in problem solving ambiguous issues through logical thinking, root cause analysis, proactivity Ability to thrive in a high-energy environment where tactical and strategic activities are expected to be driven in parallel. Leading mentoring and training an international team, applying advanced knowledge and understanding of Software QA processes for different strategies. Beeing passionate about games and QA, having broad knowledge of technical and functional aspects of standard game systems.
 
-# istqb
+# istqb Certifications
 - skill: ISTQB Certiﬁed Tester Foundation Level
   description: ISTQB® Foundation Level is relevant across software delivery practices including Waterfall, Agile, DevOps and Continuous Delivery. It includes contents of testing throughot the software lifecycle, fundamentals of testing, static techniques, test design techniques, testmanagemebnet and tool support for testing.  
     
@@ -22,8 +22,11 @@
   
   # Languages
 - skill: Languages
-  description: german native, english fluently
+  description: German (native), English (fluent)
   
   # tools
-- skill: Tools
-  description: GitLab/GitHub, SVN, MySQL, Docker, Jenkins, Python, Confluence, Jira, Sharepoint & MS365, Selenium, Mantis, web based testing tools
+- skill: Tools & Technologies
+  description: GitLab/GitHub, SVN, MySQL, Docker, Jenkins, Confluence, Jira, SharePoint & MS365, Selenium, Mantis, web-based testing tools
+  
+  skill: Programming Languages
+  description: Python
