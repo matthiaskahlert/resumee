@@ -126,6 +126,32 @@
 }
 
 // resume content styles
+/* Defined CSS variables for light and dark mode */
+:root {
+  --background-color: #ffffff;
+  --text-color: #000000;
+}
+
+[data-theme="dark"] {
+  --background-color: #000000;
+  --text-color: #ffffff;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+/* Add other necessary dark mode styles */
+.header-name {
+  color: var(--text-color);
+}
+
+.header-contact-info p a {
+  color: var(--text-color);
+}
+
+/* Need to repeat for other elements as needed */
 
 .content-section {
   margin: 0 0 3rem;
