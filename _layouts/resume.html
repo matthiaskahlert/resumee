@@ -31,8 +31,10 @@
 
           <!-- This is the markup for the icon links; moved out to an include because it's very verbose, and you shouldn't ever need to edit the markup (unless you want to re-order the icons); if you want to customize which links appear, define them in the _config.yml file -->
           {% include icon-links.html %}
-		  <!-- Added this button within the header section for dark mode integration -->
-          <button id="dark-mode-toggle">Toggle Dark Mode</button>
+          <!-- Dark Mode Toggle Button -->
+          <button id="dark-mode-toggle">
+            <img src="{{ '/assets/icons/moon.svg' | relative_url }}" alt="Toggle Dark Mode">
+          </button>
         </div>
 
         <div class="executive-summary no-print" itemprop="description">

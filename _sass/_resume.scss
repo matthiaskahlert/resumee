@@ -142,6 +142,20 @@ body {
   color: var(--text-color);
 }
 
+#dark-mode-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+#dark-mode-toggle img {
+  width: 24px;
+  height: 24px;
+}
+
 /* Add other necessary dark mode styles */
 .header-name {
   color: var(--text-color);
@@ -150,7 +164,6 @@ body {
 .header-contact-info p a {
   color: var(--text-color);
 }
-
 /* Need to repeat for other elements as needed */
 
 .content-section {
