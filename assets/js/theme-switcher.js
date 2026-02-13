@@ -87,7 +87,8 @@
       </button>
     `;
 
-    // Insert after language toggle if it exists, otherwise after avatar
+    // Insert after language toggle if it exists (for future compatibility), otherwise after avatar
+    // Note: Language toggle is not currently implemented, so this will default to avatar positioning
     const languageToggle = header.querySelector('.language-toggle-container');
     const avatar = header.querySelector('.avatar');
     
