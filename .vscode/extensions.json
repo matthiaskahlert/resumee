@@ -1,0 +1,25 @@
+{
+  "recommendations": [
+    // Live Server for instant preview
+    "ritwickdey.liveserver",
+    
+    // Jekyll and Liquid syntax support
+    "ginfuru.ginfuru-vscode-jekyll-syntax",
+    "sissel.shopify-liquid",
+    
+    // SCSS/Sass support
+    "syler.sass-indented",
+    
+    // Git integration
+    "eamodio.gitlens",
+    
+    // Markdown support
+    "yzhang.markdown-all-in-one",
+    
+    // HTML/CSS tools
+    "ecmel.vscode-html-css",
+    
+    // Code formatting
+    "esbenp.prettier-vscode"
+  ]
+}

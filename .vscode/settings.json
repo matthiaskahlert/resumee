@@ -1,0 +1,42 @@
+{
+  // Live Server Configuration
+  "liveServer.settings.port": 4000,
+  "liveServer.settings.root": "_site",
+  "liveServer.settings.CustomBrowser": "chrome",
+  "liveServer.settings.AdvanceCustomBrowserCmdLine": "",
+  "liveServer.settings.NoBrowser": false,
+  "liveServer.settings.ignoreFiles": [
+    ".vscode/**",
+    "**/*.scss",
+    "**/*.sass",
+    "**/*.md"
+  ],
+  
+  // Jekyll specific settings
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/**": true,
+    "**/.sass-cache/**": true,
+    "**/_site/**": false
+  },
+  
+  // File associations for Jekyll
+  "files.associations": {
+    "*.html": "html",
+    "*.md": "markdown"
+  },
+  
+  // Auto-save configuration
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+  
+  // Editor settings
+  "editor.formatOnSave": true,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  }
+}

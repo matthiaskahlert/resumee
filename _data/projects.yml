@@ -1,20 +1,36 @@
 # Projects
 # uncomment the urls if you wish to display them, and add your own URL
+# image: path to project image (optional) - use assets/images/projects/your-image.svg
+# image_alt: alt text for image (required if image is set)
+#QA Lead responsibilities for Bytro
+- project: Hero Feature – Supremacy 1914
+  role: QA Lead
+  duration: 2024 &mdash; 2024
+  url: https://www.supremacy1914.com
+  image: assets/images/projects/supremacy1914.svg
+  image_alt: Supremacy 1914 Hero Feature Screenshot
+  description: Led the QA efforts for the implementation of the Hero Feature in Supremacy 1914, enhancing gameplay depth by introducing unique, strategic elements for players. Collaborated closely with developers and designers to refine functionality and ensure seamless integration. Defined and executed comprehensive test plans to identify potential issues, achieving a smooth launch with minimal disruptions.
 # QA director responsibilities
 - project: SHK Deutschland
   role: IT-Testmanager
-  duration: 2023 &mdash; today
+  duration: 2023 &mdash; 2023
   url: "https://jobs.shk-deutschland.de/"
-  description: As a Testmanager, I will play a crucial role in the digital transformation and merge of three successful companies, namely Paulsen, Bergmann & Franz, and Detering, under the umbrella of Building Material Europe (BME).  <br />With a strong presence spanning over two years and covering the northern region of Germany from the Danish to the Polish border, the newly formed group, operating under the unified brand name SHK | DEUTSCHLAND, focuses on wholesale business segments such as Sanitary, Heating, Air Conditioning, Installation, and Tiles.  <br />My responsibilities will involve organizing ERP system testing activities and streamlining processes across all three companies, ensuring seamless integration and operational efficiency.
+  image: assets/images/projects/shk-deutschland.svg
+  image_alt: SHK Deutschland Project
+  description: Owned ERP testing strategy during merger of three companies under BME. <br />Coordinated cross-company integration testing and process harmonization
 # QA director responsibilities
 - project: Matrix Transformation Bigpoint
   role: Studio QA Director Bigpoint
   duration: 2021 &mdash; 2023
   url: "https://www.bigpoint.net/"
-  description: Ensure the updates and releases to players contains no critical or blocking issues which will preventing them to enjoy our games. <br />Provide feedback and suggestions to product team from the players’ perspective to improve the quality and fun of our games. <br />Expand and maintain the relationship between studio and external vendors incl. freelancers.  <br />Mentoring on the professional skillset and career development of QA in the studio.  <br />Maintain the performance in the team to identify high performers and ensure their steady nature, identify the less performers and ensure their improvement.  <br />Hire, develop, mentor and supervise team member.  <br />Organize knowledge and experience sharing within the team.
+  image: assets/images/projects/bigpoint.svg
+  image_alt: Bigpoint Studio QA Director
+  description: Defined studio-wide quality gates, Introduced KPI-driven release validation, reduced regression risk via structured testorchestration.Ensure the updates and releases to players contains no critical or blocking issues which will preventing them to enjoy our games. <br />Provide feedback and suggestions to product team from the players' perspective to improve the quality and fun of our games. <br />Expand and maintain the relationship between studio and external vendors incl. freelancers.  <br />Mentoring on the professional skillset and career development of QA in the studio.  <br />Maintain the performance in the team to identify high performers and ensure their steady nature, identify the less performers and ensure their improvement.  <br />Hire, develop, mentor and supervise team member.  <br />Organize knowledge and experience sharing within the team.
 # Seafight
 - project: Seafight
   role: Lead Testmanager
   duration: 2010 &mdash; 2023
   url: "https://www.seafight.com/"
-  description: Seafight is a high seas pirate browser MMORPG game developed and published by Bigpoint. <br />The game revolves around ship warfare on the open seas as player fight against monsters in PvE and against each other in PvP battles in search of treasure and gold. <br />As of March 2022, there are over 48 million registered users of the game, available in 17 different languages.<br />The lifetime Revenue of this project is aprox 200 mio Euro. <hr> My Business impact at Seafight is leading the assigned QA team, Controlling project-internal tests and external outsourcing tests, ensuring testing and reporting conforms to the QA department standards, information flow and knowledge sharing. Responsible for the product quality. Maintaining QA -strategy,-processes , -workflows and testing methods for the assigned project.  Analyzing feature specifications to plan and size QA efforts, provide feedback and assigning of tasks to the test team. Training of the assigned test team.  
+  image: assets/images/projects/seafight.svg
+  image_alt: Seafight Game Screenshot
+  description: QA leadership for a live MMO with 48M+ registered users and €200M lifetime revenue. <hr> My Business impact at Seafight is leading the assigned QA team, Controlling project-internal tests and external outsourcing tests, ensuring testing and reporting conforms to the QA department standards, information flow and knowledge sharing. Responsible for the product quality. Maintaining QA -strategy,-processes , -workflows and testing methods for the assigned project.  Analyzing feature specifications to plan and size QA efforts, provide feedback and assigning of tasks to the test team. Training of the assigned test team.  

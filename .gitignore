@@ -2,3 +2,17 @@ _site
 .sass-cache
 .DS_Store
 _vendor
+
+# VS Code user-specific settings (keep .vscode/settings.json, extensions.json, tasks.json)
+.vscode/*.log
+
+# Jekyll cache
+.jekyll-cache
+.jekyll-metadata
+
+# Bundler
+.bundle/
+vendor/
+
+# OS files
+Thumbs.db
