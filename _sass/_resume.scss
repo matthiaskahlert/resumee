@@ -223,3 +223,49 @@
     }
   }
 }
+
+// Project Image Styles
+// ---------------------------------------/
+
+.project-image-wrapper {
+  margin: 0 0 1rem 0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  
+  @include media_larger_than_mobile {
+    float: right;
+    max-width: 300px;
+    margin: 0 0 1rem 1.5rem;
+  }
+}
+
+.project-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease;
+  
+  &:hover {
+    transform: scale(1.02);
+  }
+}
+
+// Lazy loading support - show placeholder while loading
+.project-image.lazyload {
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.project-image.lazyloaded {
+  opacity: 1;
+}
+
+// Print styles - smaller images for print
+@media print {
+  .project-image-wrapper {
+    max-width: 200px;
+    float: right;
+    margin: 0 0 0.5rem 1rem;
+  }
+}
