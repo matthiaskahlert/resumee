@@ -41,8 +41,14 @@
   description: |
     Native German speaker; fluent in English.
 # tools
-- skill: Tools & Technologies
-  description: GitLab/GitHub, SVN, MySQL, Docker, Jenkins, Confluence, Jira, SharePoint & MS365, Selenium, Mantis, TestRail and other web-based testing tools
-  
 - skill: Programming Languages
-  description: JavaScript, Python
+  description: JavaScript, Python  
+
+- skill: Version Control & DevOps
+  description: Git (GitHub/GitLab), CI/CD, Jenkins
+
+- skill: Technical Validation
+  description: SQL, Selenium, Docker
+
+- skill: Collaboration & Tracking
+  description: Jira, Confluence, TestRail, KMs 365 / Sharepoint, Teams, Slack
