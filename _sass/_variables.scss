@@ -4,7 +4,7 @@
 $container-width: 980px !default;
 $grid-gutter:     10px !default;
 
-// Colors
+// Colors (SCSS variables for fallback)
 $white:             #fff;
 $black:             #333;
 
@@ -19,3 +19,65 @@ $body-font-size: 13px !default;
 
 // Monospace font stack
 $mono-font: Consolas, "Liberation Mono", Menlo, Courier, monospace !default;
+
+// CSS Custom Properties for Theme Support
+// ---------------------------------------/
+// These will be overridden by JavaScript for dark mode
+
+:root {
+  // Light theme (default)
+  --bg-color: #ffffff;
+  --text-color: #333333;
+  --text-secondary: #666666;
+  --border-color: #c7c7c7;
+  --border-color-light: #e0e0e0;
+  --link-color: #0366d6;
+  --link-hover: #0256b8;
+  --button-bg: transparent;
+  --button-border: #c7c7c7;
+  --button-hover-bg: rgba(0, 0, 0, 0.05);
+  --shadow-color: rgba(0, 0, 0, 0.1);
+  --shadow-hover: rgba(0, 0, 0, 0.2);
+  --code-bg: #f6f8fa;
+  
+  // Contact button
+  --contact-button-bg: #0366d6;
+  --contact-button-text: #ffffff;
+  --contact-button-hover: #0256b8;
+  
+  // Section backgrounds
+  --section-bg: #ffffff;
+  --header-bg: #ffffff;
+  
+  // Image overlays
+  --image-overlay: rgba(0, 0, 0, 0.05);
+}
+
+// Dark theme
+[data-theme="dark"] {
+  --bg-color: #1a1a1a;
+  --text-color: #e4e4e4;
+  --text-secondary: #a0a0a0;
+  --border-color: #404040;
+  --border-color-light: #2a2a2a;
+  --link-color: #58a6ff;
+  --link-hover: #79c0ff;
+  --button-bg: transparent;
+  --button-border: #58a6ff;
+  --button-hover-bg: rgba(88, 166, 255, 0.1);
+  --shadow-color: rgba(0, 0, 0, 0.4);
+  --shadow-hover: rgba(0, 0, 0, 0.6);
+  --code-bg: #2d2d2d;
+  
+  // Contact button
+  --contact-button-bg: #58a6ff;
+  --contact-button-text: #1a1a1a;
+  --contact-button-hover: #79c0ff;
+  
+  // Section backgrounds
+  --section-bg: #1a1a1a;
+  --header-bg: #1a1a1a;
+  
+  // Image overlays
+  --image-overlay: rgba(255, 255, 255, 0.05);
+}
