@@ -5,32 +5,40 @@
 #QA Lead responsibilities for Bytro
 - project: Hero Feature – Supremacy 1914
   role: QA Lead
+  role_de: QA Lead
   duration: 2024 &mdash; 2024
   url: https://www.supremacy1914.com
   image: assets/images/projects/supremacy1914.svg
   image_alt: Supremacy 1914 Hero Feature Screenshot
   description: Led the QA efforts for the implementation of the Hero Feature in Supremacy 1914, enhancing gameplay depth by introducing unique, strategic elements for players. Collaborated closely with developers and designers to refine functionality and ensure seamless integration. Defined and executed comprehensive test plans to identify potential issues, achieving a smooth launch with minimal disruptions.
+  description_de: Leitete die QA-Bemühungen für die Implementierung der Helden-Funktion in Supremacy 1914, welche die Spieltiefe durch die Einführung einzigartiger, strategischer Elemente für Spieler verbesserte. Arbeitete eng mit Entwicklern und Designern zusammen, um die Funktionalität zu verfeinern und eine nahtlose Integration sicherzustellen. Definierte und führte umfassende Testpläne durch, um potenzielle Probleme zu identifizieren und einen reibungslosen Start mit minimalen Störungen zu erreichen.
 # QA director responsibilities
 - project: SHK Deutschland
   role: IT-Testmanager
+  role_de: IT-Testmanager
   duration: 2023 &mdash; 2023
   url: "https://jobs.shk-deutschland.de/"
   image: assets/images/projects/shk-deutschland.svg
   image_alt: SHK Deutschland Project
   description: Owned ERP testing strategy during merger of three companies under BME. <br />Coordinated cross-company integration testing and process harmonization
+  description_de: Verantwortlich für die ERP-Teststrategie während der Fusion von drei Unternehmen unter BME. <br />Koordinierte unternehmensübergreifende Integrationstests und Prozessharmonisierung
 # QA director responsibilities
 - project: Matrix Transformation Bigpoint
   role: Studio QA Director Bigpoint
+  role_de: Studio QA Director Bigpoint
   duration: 2021 &mdash; 2023
   url: "https://www.bigpoint.net/"
   image: assets/images/projects/bigpoint.svg
   image_alt: Bigpoint Studio QA Director
   description: Defined studio-wide quality gates, Introduced KPI-driven release validation, reduced regression risk via structured testorchestration.Ensure the updates and releases to players contains no critical or blocking issues which will preventing them to enjoy our games. <br />Provide feedback and suggestions to product team from the players' perspective to improve the quality and fun of our games. <br />Expand and maintain the relationship between studio and external vendors incl. freelancers.  <br />Mentoring on the professional skillset and career development of QA in the studio.  <br />Maintain the performance in the team to identify high performers and ensure their steady nature, identify the less performers and ensure their improvement.  <br />Hire, develop, mentor and supervise team member.  <br />Organize knowledge and experience sharing within the team.
+  description_de: Definierte studioweite Qualitätsstandards, führte KPI-gesteuerte Release-Validierung ein und reduzierte Regressionsrisiken durch strukturierte Testorchestration. Stellte sicher, dass Updates und Releases für Spieler keine kritischen oder blockierenden Probleme enthalten, die den Spielspaß beeinträchtigen würden. <br />Gab Feedback und Vorschläge an das Produktteam aus Spielerperspektive zur Verbesserung der Qualität und des Spielspaßes. <br />Erweiterte und pflegte die Beziehungen zwischen Studio und externen Dienstleistern inkl. Freelancern. <br />Mentoring zur professionellen Kompetenz und Karriereentwicklung der QA im Studio. <br />Aufrechterhaltung der Teamleistung zur Identifikation von Hochleistern und Sicherstellung ihrer kontinuierlichen Entwicklung, sowie Identifikation und Förderung von Mitarbeitern mit Verbesserungsbedarf. <br />Einstellung, Entwicklung, Mentoring und Führung von Teammitgliedern. <br />Organisation von Wissens- und Erfahrungsaustausch innerhalb des Teams.
 # Seafight
 - project: Seafight
   role: Lead Testmanager
+  role_de: Lead Testmanager
   duration: 2010 &mdash; 2023
   url: "https://www.seafight.com/"
   image: assets/images/projects/seafight.svg
   image_alt: Seafight Game Screenshot
-  description: QA leadership for a live MMO with 48M+ registered users and €200M lifetime revenue. <hr> My Business impact at Seafight is leading the assigned QA team, Controlling project-internal tests and external outsourcing tests, ensuring testing and reporting conforms to the QA department standards, information flow and knowledge sharing. Responsible for the product quality. Maintaining QA -strategy,-processes , -workflows and testing methods for the assigned project.  Analyzing feature specifications to plan and size QA efforts, provide feedback and assigning of tasks to the test team. Training of the assigned test team.  
+  description: QA leadership for a live MMO with 48M+ registered users and €200M lifetime revenue. <hr> My Business impact at Seafight is leading the assigned QA team, Controlling project-internal tests and external outsourcing tests, ensuring testing and reporting conforms to the QA department standards, information flow and knowledge sharing. Responsible for the product quality. Maintaining QA -strategy,-processes , -workflows and testing methods for the assigned project.  Analyzing feature specifications to plan and size QA efforts, provide feedback and assigning of tasks to the test team. Training of the assigned test team.
+  description_de: QA-Leitung für ein Live-MMO mit 48M+ registrierten Nutzern und €200M Lifetime-Umsatz. <hr> Mein geschäftlicher Einfluss bei Seafight besteht in der Leitung des zugewiesenen QA-Teams, der Kontrolle projektinterner Tests und externer Outsourcing-Tests, der Sicherstellung, dass Tests und Berichte den Standards der QA-Abteilung entsprechen, sowie im Informationsfluss und Wissensaustausch. Verantwortlich für die Produktqualität. Pflege der QA-Strategie, -Prozesse, -Workflows und Testmethoden für das zugewiesene Projekt. Analyse von Feature-Spezifikationen zur Planung und Dimensionierung der QA-Bemühungen, Bereitstellung von Feedback und Zuweisung von Aufgaben an das Testteam. Schulung des zugewiesenen Testteams.  

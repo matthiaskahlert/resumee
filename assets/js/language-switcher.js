@@ -131,6 +131,12 @@
     // Update footer
     updateFooter(t);
     
+    // Update project descriptions and roles
+    updateProjectContent(lang);
+    
+    // Update job summaries and positions
+    updateExperienceContent(lang);
+    
     // Update HTML lang attribute for accessibility
     document.documentElement.lang = lang;
   }
@@ -193,6 +199,42 @@
       const inactiveText = currentLang === 'de' ? 'EN' : 'DE';
       label.innerHTML = `<strong>${activeText}</strong> / ${inactiveText}`;
     }
+  }
+
+  function updateProjectContent(lang) {
+    // Update project descriptions
+    document.querySelectorAll('.translatable-description').forEach(element => {
+      const text = element.getAttribute(`data-${lang}`);
+      if (text) {
+        element.innerHTML = text;
+      }
+    });
+    
+    // Update project roles
+    document.querySelectorAll('.translatable-role').forEach(element => {
+      const text = element.getAttribute(`data-${lang}`);
+      if (text) {
+        element.textContent = text;
+      }
+    });
+  }
+
+  function updateExperienceContent(lang) {
+    // Update job summaries
+    document.querySelectorAll('.translatable-summary').forEach(element => {
+      const text = element.getAttribute(`data-${lang}`);
+      if (text) {
+        element.textContent = text;
+      }
+    });
+    
+    // Update job positions
+    document.querySelectorAll('.translatable-position').forEach(element => {
+      const text = element.getAttribute(`data-${lang}`);
+      if (text) {
+        element.textContent = text;
+      }
+    });
   }
 
   // Expose API for external use if needed

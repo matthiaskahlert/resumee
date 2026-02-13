@@ -12,40 +12,52 @@
 # Job Title
 - company: Bytro Labs GmbH
   position: Quality Assurance Lead
+  position_de: Quality Assurance Lead
   duration: June, 2024 &mdash; February, 2025
   summary: As Quality Assurance Lead at Bytro Labs, I drive QA operations to ensure seamless, high-quality product releases. I collaborate with development, Engine, and DevOps teams to refine tools and processes, align testing with production needs, and mentor the QA team to foster growth and excellence.
+  summary_de: Als Quality Assurance Lead bei Bytro Labs treibe ich die QA-Abläufe voran, um nahtlose, qualitativ hochwertige Produktveröffentlichungen sicherzustellen. Ich arbeite mit Entwicklungs-, Engine- und DevOps-Teams zusammen, um Tools und Prozesse zu verfeinern, Tests an die Produktionsanforderungen anzupassen und das QA-Team zu mentorieren, um Wachstum und Exzellenz zu fördern.
  
 
 
 # Job Title
 - company: SHK Deutschland
   position: IT - Testmanager
+  position_de: IT - Testmanager
   duration: July, 2023 &mdash; December, 2023
   summary: As IT-Testmanager I planned and executed ERP System Testing during the integration of three companies under a unified brand. Developed innovative test methods and streamlined processes to ensure seamless operational efficiency.
+  summary_de: Als IT-Testmanager plante und führte ich ERP-System-Tests während der Integration von drei Unternehmen unter einer einheitlichen Marke durch. Entwickelte innovative Testmethoden und optimierte Prozesse, um eine nahtlose betriebliche Effizienz sicherzustellen.
  
 
 
 # Job Title
 - company: Bigpoint GmbH
   position: Studio QA Director
+  position_de: Studio QA Director
   duration: December, 2021 &mdash; June, 2023
   summary: Directed QA strategies to ensure high quality game releases. Aligned QA processes with CI/CD and deployment pipelines. Defined technical validation criteria across live environments. Strengthened collaboration with engine and DevOps teams. Mentored the QA team members across studio, expanded vendor relationships, and drove team performance improvement.
+  summary_de: Leitete QA-Strategien zur Sicherstellung hochwertiger Spielveröffentlichungen. Richtete QA-Prozesse an CI/CD- und Deployment-Pipelines aus. Definierte technische Validierungskriterien über Live-Umgebungen hinweg. Stärkte die Zusammenarbeit mit Engine- und DevOps-Teams. Mentorierte QA-Teammitglieder im gesamten Studio, erweiterte Lieferantenbeziehungen und trieb die Verbesserung der Teamleistung voran.
  
 # Job Title
 - company: Bigpoint GmbH
   position: Lead QA Tester
+  position_de: Lead QA Tester
   duration: January, 2015 &mdash; November, 2021
-  summary: Managed in-house and outsourcing testing projects, ensuring alignment with QA standards. Designed scalable QA workflows for live operations. Coordinated CI/CD release validation across internal and external QA teams. Contributed to frontend code adjustments and Git-based deployment processes. 
+  summary: Managed in-house and outsourcing testing projects, ensuring alignment with QA standards. Designed scalable QA workflows for live operations. Coordinated CI/CD release validation across internal and external QA teams. Contributed to frontend code adjustments and Git-based deployment processes.
+  summary_de: Verwaltete interne und ausgelagerte Testprojekte und stellte die Übereinstimmung mit QA-Standards sicher. Entwarf skalierbare QA-Workflows für Live-Betrieb. Koordinierte CI/CD-Release-Validierung über interne und externe QA-Teams hinweg. Trug zu Frontend-Code-Anpassungen und Git-basierten Deployment-Prozessen bei. 
 
 # Supportocat
 - company: Bigpoint GmbH
   position: Softwaretester
+  position_de: Softwaretester
   duration:  May, 2014 &mdash; December, 2014
-  summary: Executed functionality Tests on game featuressets and collaborated closely with developers and the design team to provide high-quality output. 
+  summary: Executed functionality Tests on game featuressets and collaborated closely with developers and the design team to provide high-quality output.
+  summary_de: Führte Funktionalitätstests von Spiel-Features durch und arbeitete eng mit Entwicklern und dem Design-Team zusammen, um qualitativ hochwertige Ergebnisse zu liefern. 
 
 # Intern
 - company: Bigpoint GmbH
   position: Intern - Software Tester
+  position_de: Praktikant - Software Tester
   duration:  December, 2010  &mdash; April, 2014
   summary: Identified and communicated game defects, contributing significantly to achieving quality goals.
+  summary_de: Identifizierte und kommunizierte Spielfehler und trug wesentlich zur Erreichung von Qualitätszielen bei.
 
