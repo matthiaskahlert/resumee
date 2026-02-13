@@ -57,8 +57,8 @@
         {% for job in site.data.experience %}
         <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
           <h3 class="resume-item-title" itemprop="name">{{ job.company }}</h3>
-          <h4 class="resume-item-details" itemprop="description"><span class="translatable-position" data-en="{{ job.position }}" data-de="{% if job.position_de %}{{ job.position_de }}{% else %}{{ job.position }}{% endif %}">{{ job.position }}</span> &bull; {{ job.duration }}</h4>
-          <p class="resume-item-copy translatable-summary" data-en="{{ job.summary }}" data-de="{% if job.summary_de %}{{ job.summary_de }}{% else %}{{ job.summary }}{% endif %}">{{ job.summary }}</p>
+          <h4 class="resume-item-details" itemprop="description">{{ job.position }} &bull; {{ job.duration }}</h4>
+          <p class="resume-item-copy">{{ job.summary }}</p>
         </div><!-- end of resume-item -->
         {% endfor %}
 
@@ -107,8 +107,8 @@
           </div>
           {% endif %}
           <h3 class="resume-item-title" itemprop="name">{% if project.url %}<a href="{{ project.url }}" itemprop="url">{{ project.project }}</a>{% else %}{{ project.project }}{% endif %}</h3>
-          <h4 class="resume-item-details" itemprop="description"><span class="translatable-role" data-en="{{ project.role }}" data-de="{% if project.role_de %}{{ project.role_de }}{% else %}{{ project.role }}{% endif %}">{{ project.role }}</span>  &bull; {{ project.duration }}</h4>
-          <p class="resume-item-copy translatable-description" data-en="{{ project.description }}" data-de="{% if project.description_de %}{{ project.description_de }}{% else %}{{ project.description }}{% endif %}">{{ project.description }}</p>
+          <h4 class="resume-item-details" itemprop="description">{{ project.role }}  &bull; {{ project.duration }}</h4>
+          <p class="resume-item-copy">{{ project.description }}</p>
         </div>
         {% endfor %}
 
