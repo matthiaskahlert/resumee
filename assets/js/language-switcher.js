@@ -203,6 +203,7 @@
 
   function updateProjectContent(lang) {
     // Update project descriptions
+    // Note: Using innerHTML here because descriptions may contain HTML tags like <br /> and <hr>
     document.querySelectorAll('.translatable-description').forEach(element => {
       const text = element.getAttribute(`data-${lang}`);
       if (text) {
