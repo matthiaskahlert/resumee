@@ -164,6 +164,9 @@
     };
     
     label.textContent = labels[currentTheme] || 'Toggle Theme';
+    
+    // Update icon as well
+    updateThemeIcon();
   }
 
   // Update SVG icon based on theme
