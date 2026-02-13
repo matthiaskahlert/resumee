@@ -1,0 +1,37 @@
+# English Translation
+# Structured translations for the resume website
+
+# Header & Navigation
+header:
+  contact_me: "Contact me"
+  not_looking: "I'm not looking for work right now"
+
+# Section Headers
+sections:
+  experience: "Experience"
+  education: "Education"
+  projects: "Job Description and Projects"
+  skills: "Skills"
+  recognition: "Recognition"
+  interests: "Outside Interests"
+  links: "Additional Links"
+  social_links: "Social Links"
+
+# UI Elements
+ui:
+  toggle_language: "Toggle Language"
+  toggle_theme: "Toggle Theme"
+  language_de: "Deutsch"
+  language_en: "English"
+  theme_light: "Light"
+  theme_dark: "Dark"
+  theme_auto: "System"
+
+# Footer
+footer:
+  impressum: "Legal Notice"
+
+# Metadata
+meta:
+  title: "Resume Matthias Kahlert"
+  description: "A resume of Matthias Kahlert, QA Manager focusing on Technical QA Leadership and Live Game Release & Quality Strategy."
