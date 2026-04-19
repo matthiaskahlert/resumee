@@ -223,6 +223,25 @@ function setupMouseReactiveBg() {
   });
 }
 
+function setLetterDelays() {
+  const heroNameEl = document.querySelector(".hero-name");
+  if (!heroNameEl) return;
+
+  // Split text into spans
+  const text = heroNameEl.textContent;
+  heroNameEl.innerHTML = "";
+  text.split("").forEach((char) => {
+    const span = document.createElement("span");
+    span.textContent = char;
+    heroNameEl.appendChild(span);
+  });
+
+  // Apply animation delays
+  heroNameEl.querySelectorAll("span").forEach((span, idx) => {
+    span.style.animationDelay = `${idx * 0.04}s`;
+  });
+}
+
 document.addEventListener('DOMContentLoaded', () => {
   nameEl = document.getElementById('heroName');
   roleEl = document.getElementById('roleTypewriter');
@@ -252,6 +271,8 @@ document.addEventListener('DOMContentLoaded', () => {
   applyLanguage();
   setupReveal();
   setupMouseReactiveBg();
-  setTimeout(() => nameEl?.classList.add('ready'), 120);
+  setLetterDelays();
   startTypewriter();
 });
+
+document.getElementById("year").textContent = new Date().getFullYear(); // Dynamically set the current year
