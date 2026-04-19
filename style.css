@@ -4,6 +4,7 @@
   --text: #152126;
   --muted: #4d626b;
   --accent: #1dbfb0;
+  --accent-dark: #139084;
   --shadow: 0 14px 30px rgba(19, 40, 48, 0.12);
   --radius: 1.1rem;
   --max: 1100px;
@@ -33,6 +34,7 @@ body {
   background: var(--bg);
   color: var(--text);
   line-height: 1.6;
+  padding-inline: 1rem;
 }
 
 .mouse-bg {
@@ -46,6 +48,7 @@ body {
 .container {
   width: min(100% - 2rem, var(--max));
   margin-inline: auto;
+  padding-inline: 1rem;
 }
 
 .site-header {
@@ -66,9 +69,10 @@ body {
 }
 
 .brand {
-  font-weight: 800;
-  color: var(--accent);
+  font-weight: 700;
+  color: var(--text);
   text-decoration: none;
+  font-size: 1rem;
   letter-spacing: 0.04em;
 }
 
@@ -101,8 +105,15 @@ body {
 
 .nav-menu a {
   text-decoration: none;
-  color: var(--text);
-  font-weight: 600;
+  color: var(--muted);
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.nav-menu a:hover,
+.nav-menu a:focus-visible {
+  color: var(--accent-dark);
 }
 
 .controls {
@@ -112,11 +123,18 @@ body {
 
 .control-btn {
   border: 1px solid color-mix(in srgb, var(--muted) 35%, transparent);
-  background: var(--surface);
+  background: transparent;
   color: var(--text);
-  border-radius: 0.5rem;
-  padding: 0.4rem 0.65rem;
+  border-radius: 999px;
+  padding: 0.45rem 0.7rem;
   cursor: pointer;
+  transition: border-color 0.2s ease, color 0.2s ease;
+}
+
+.control-btn:hover,
+.control-btn:focus-visible {
+  border-color: var(--accent-dark);
+  color: var(--accent-dark);
 }
 
 .hero {
@@ -135,22 +153,37 @@ body {
 .hero-name {
   margin: 0.2rem 0;
   font-size: clamp(1.9rem, 8vw, 3.4rem);
-  transform: translateY(20px);
-  opacity: 0;
-  transition: 0.7s ease;
 }
 
-.hero-name.ready {
-  transform: translateY(0);
-  opacity: 1;
+.hero-name span {
+  display: inline-block;
+  opacity: 0;
+  transform: translateY(16px) scale(0.98);
+  filter: blur(6px);
+  animation: letterIn 650ms forwards;
+}
+
+@keyframes letterIn {
+  to { opacity: 1; transform: translateY(0) scale(1); filter: blur(0); }
 }
 
 .hero-role {
-  margin-top: 0;
-  min-height: 1.6rem;
-  color: var(--accent);
-  font-weight: 700;
+  font-size: clamp(1.05rem, 2.8vw, 1.45rem);
+  margin: 0.85rem 0;
+  color: var(--accent-dark);
+  min-height: 1.8em;
 }
+
+.hero-role::after {
+  content: "";
+  display: inline-block;
+  width: 0.58ch;
+  border-right: 2px solid var(--accent-dark);
+  margin-left: 0.12ch;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink { 50% { border-color: transparent; } }
 
 .hero-text {
   color: var(--muted);
@@ -343,4 +376,7 @@ body {
   .timeline {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
+
+  .footer { border-top: 1px solid var(--border); color: var(--muted); }
+
 }
