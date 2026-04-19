@@ -232,7 +232,7 @@ function setLetterDelays() {
   heroNameEl.innerHTML = "";
   text.split("").forEach((char) => {
     const span = document.createElement("span");
-    span.textContent = char;
+    span.innerHTML = char === " " ? "&nbsp;" : char;
     heroNameEl.appendChild(span);
   });
 

@@ -236,6 +236,39 @@ body {
   font-size: clamp(1.4rem, 5vw, 2rem);
 }
 
+.about-layout {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.about-image-wrap {
+  flex: 0 0 auto;
+  opacity: 0;
+  transform: translateX(-30px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+.about-image-wrap.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.about-image {
+  width: clamp(160px, 25vw, 260px);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  display: block;
+  object-fit: cover;
+  aspect-ratio: 3 / 4;
+}
+
+.about-text {
+  flex: 1;
+  min-width: 220px;
+}
+
 .cards {
   display: grid;
   gap: 1rem;
@@ -377,6 +410,9 @@ body {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
-  .footer { border-top: 1px solid var(--border); color: var(--muted); }
+  .footer { 
+    border-top: 1px solid var(--border); color: var(--muted);
+    padding-inline: 1rem;
+   }
 
 }
