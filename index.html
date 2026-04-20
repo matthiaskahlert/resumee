@@ -25,6 +25,7 @@
         <a class="brand" href="#top">Matthias Kahlert</a>
         <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">☰</button>
         <ul class="nav-menu" id="nav-menu">
+          <li><a href="#top" data-i18n="nav.home" id="homeLink">Startseite</a></li>
           <li><a href="#about" data-i18n="nav.about">About</a></li>
           <li><a href="#skills" data-i18n="nav.skills">Skills</a></li>
           <li><a href="#services" data-i18n="nav.services">Services</a></li>
@@ -154,16 +155,20 @@
           <h2 data-i18n="services.title">Services</h2>
           <div class="cards">
             <article class="card">
-              <h3 data-i18n="services.s1.title">QA Leadership</h3>
-              <p data-i18n="services.s1.text">Aufbau von QA-Prozessen, Teststrategie und Team-Guidance.</p>
+              <h3 data-i18n="services.s1.title"></h3>
+              <p data-i18n="services.s1.text"></p>
             </article>
             <article class="card">
-              <h3 data-i18n="services.s2.title">Test Management</h3>
-              <p data-i18n="services.s2.text">Planung, Priorisierung und Absicherung von Releases.</p>
+              <h3 data-i18n="services.s2.title"></h3>
+              <p data-i18n="services.s2.text"></p>
             </article>
             <article class="card">
-              <h3 data-i18n="services.s3.title">Quality Consulting</h3>
-              <p data-i18n="services.s3.text">Audit bestehender Prozesse und Einführung nachhaltiger Qualitätsmetriken.</p>
+              <h3 data-i18n="services.s3.title"></h3>
+              <p data-i18n="services.s3.text"></p>
+            </article>
+            <article class="card">
+              <h3 data-i18n="services.s4.title"></h3>
+              <p data-i18n="services.s4.text"></p>
             </article>
           </div>
         </div>
@@ -179,7 +184,11 @@
                 <h3 data-i18n="projects.p1.title"></h3>
                 <p data-i18n="projects.p1.text"></p>
                 <p class="value-line" data-i18n="projects.p1.value"></p>
-                <p class="stack">Exploratory Testing · Regression · Live Ops · Jira · Outsourcing · Flash to Unity · Browser to Steam</p>
+                <p class="stack">
+                  <span>Exploratory Testing</span>
+                  <span>SQL</span>
+                  <span>API Testing</span>
+                </p>
                 <div class="project-links">
                   <a class="project-link" href="#case-study-seafight" data-i18n="sideprojects.caseStudy">Case Study</a>
                   <a class="project-link" target="_blank" rel="noopener noreferrer" href="https://www.seafight.com/" data-i18n="projects.live">Play Live</a>
@@ -218,7 +227,6 @@
                 <p class="value-line" data-i18n="projects.p4.value"></p>
                 <p class="stack">QA Leadership · Test Strategy · Release Management · Heroes Feature · External QA Coordination</p>
                 <div class="project-links">
-                  <a class="project-link" href="#case-study-supremacy" data-i18n="sideprojects.caseStudy">Case Study</a>
                   <a class="project-link" target="_blank" rel="noopener noreferrer" href="https://www.supremacy1914.com/" data-i18n="projects.live">Live spielen</a>
                 </div>
               </div>
@@ -231,7 +239,6 @@
                 <p class="value-line" data-i18n="projects.p5.value"></p>
                 <p class="stack">QA Leadership · Skill/Talent System Testing · Equipment Crafting · 18+ New Maps · Dark Legacy Expansion</p>
                 <div class="project-links">
-                  <a class="project-link" href="#case-study-drakensang" data-i18n="sideprojects.caseStudy">Case Study</a>
                   <a class="project-link" target="_blank" rel="noopener noreferrer" href="https://www.drakensang.com/" data-i18n="projects.live">Live spielen</a>
                 </div>
               </div>
@@ -260,7 +267,7 @@
               <p data-i18n="case.seafight.problem.text"></p>
             </article>
             <article class="card">
-              <h3 data-i18n="case.seafight.approach.title">Vorgehen</h3>
+              <h3 data-i18n="case.seafight.approach.title">Meine Rolle</h3>
               <p data-i18n="case.seafight.approach.text"></p>
             </article>
             <article class="card">
@@ -272,49 +279,7 @@
         </div>
       </section>
 
-      <section class="section reveal" id="case-study-supremacy">
-        <div class="container">
-          <h2 data-i18n="case.supremacy.title">Case Study: Supremacy 1914 Heroes</h2>
-          <p class="section-intro" data-i18n="case.supremacy.intro"></p>
-          <div class="cards case-study-grid">
-            <article class="card">
-              <h3 data-i18n="case.supremacy.problem.title"></h3>
-              <p data-i18n="case.supremacy.problem.text"></p>
-            </article>
-            <article class="card">
-              <h3 data-i18n="case.supremacy.approach.title"></h3>
-              <p data-i18n="case.supremacy.approach.text"></p>
-            </article>
-            <article class="card">
-              <h3 data-i18n="case.supremacy.impact.title"></h3>
-              <p data-i18n="case.supremacy.impact.text"></p>
-            </article>
-          </div>
-          <p class="case-study-cta" data-i18n="case.supremacy.cta">Mehr Details auf Anfrage</p>
-        </div>
-      </section>
 
-      <section class="section reveal" id="case-study-drakensang">
-        <div class="container">
-          <h2 data-i18n="case.drakensang.title">Case Study: Drakensang Online Dark Legacy</h2>
-          <p class="section-intro" data-i18n="case.drakensang.intro"></p>
-          <div class="cards case-study-grid">
-            <article class="card">
-              <h3 data-i18n="case.drakensang.problem.title"></h3>
-              <p data-i18n="case.drakensang.problem.text"></p>
-            </article>
-            <article class="card">
-              <h3 data-i18n="case.drakensang.approach.title"></h3>
-              <p data-i18n="case.drakensang.approach.text"></p>
-            </article>
-            <article class="card">
-              <h3 data-i18n="case.drakensang.impact.title"></h3>
-              <p data-i18n="case.drakensang.impact.text"></p>
-            </article>
-          </div>
-          <p class="case-study-cta" data-i18n="case.drakensang.cta">Mehr Details auf Anfrage</p>
-        </div>
-      </section>
 
       <section class="section reveal" id="experience">
         <div class="container">
