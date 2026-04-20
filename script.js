@@ -48,7 +48,11 @@ const i18nJson = `
     "exp.4.stack": "Exploratory Testing · SQL · API Testing · Git",
     "contact.title": "Kontakt",
     "contact.text": "Lass uns über Qualität, Testing und stabile Releases sprechen.",
-    "contact.cta": "Kontakt aufnehmen"
+    "contact.cta": "Kontakt aufnehmen",
+    "legal.home": "Zur Startseite",
+    "footer.home": "Startseite",
+    "footer.impressum": "Impressum",
+    "footer.datenschutz": "Datenschutz"
   },
   "en": {
     "nav.about": "About",
@@ -98,7 +102,11 @@ const i18nJson = `
     "exp.4.stack": "Exploratory Testing · SQL · API Testing · Git",
     "contact.title": "Contact",
     "contact.text": "Let's talk about quality, testing and stable releases.",
-    "contact.cta": "Get in touch"
+    "contact.cta": "Get in touch",
+    "legal.home": "Back to Home",
+    "footer.home": "Home",
+    "footer.impressum": "Legal Notice",
+    "footer.datenschutz": "Privacy"
   }
 }
 `;
@@ -136,6 +144,10 @@ let currentRoles = rolesByLang[currentLang];
 let typewriterTimeoutId;
 
 function typeRole() {
+  if (!roleEl || !currentRoles?.length) {
+    return;
+  }
+
   const role = currentRoles[roleIndex];
   if (isDeleting) {
     charIndex -= 1;
@@ -162,7 +174,9 @@ function typeRole() {
 function applyTheme(theme) {
   document.documentElement.setAttribute('data-theme', theme);
   localStorage.setItem('theme', theme);
-  themeToggle.textContent = theme === 'dark' ? '☀️' : '🌙';
+  if (themeToggle) {
+    themeToggle.textContent = theme === 'dark' ? '☀️' : '🌙';
+  }
 }
 
 function t(key) {
@@ -175,12 +189,17 @@ function applyLanguage() {
   document.querySelectorAll('[data-i18n]').forEach((node) => {
     node.textContent = t(node.dataset.i18n);
   });
+  document.querySelectorAll('[data-lang-block]').forEach((node) => {
+    node.hidden = node.getAttribute('data-lang-block') !== currentLang;
+  });
   localStorage.setItem('lang', currentLang);
-  langToggle.textContent = currentLang === 'de' ? 'EN' : 'DE';
-  langToggle.setAttribute(
-    'aria-label',
-    currentLang === 'de' ? 'Zu Englisch wechseln' : 'Switch to German'
-  );
+  if (langToggle) {
+    langToggle.textContent = currentLang === 'de' ? 'EN' : 'DE';
+    langToggle.setAttribute(
+      'aria-label',
+      currentLang === 'de' ? 'Zu Englisch wechseln' : 'Switch to German'
+    );
+  }
 }
 
 function resetTypewriter() {
@@ -250,10 +269,12 @@ document.addEventListener('DOMContentLoaded', () => {
   navToggle = document.querySelector('.nav-toggle');
   navMenu = document.getElementById('nav-menu');
 
-  navToggle?.addEventListener('click', () => {
-    const open = navMenu.classList.toggle('open');
-    navToggle.setAttribute('aria-expanded', String(open));
-  });
+  if (navToggle && navMenu) {
+    navToggle.addEventListener('click', () => {
+      const open = navMenu.classList.toggle('open');
+      navToggle.setAttribute('aria-expanded', String(open));
+    });
+  }
 
   themeToggle?.addEventListener('click', () => {
     const nextTheme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
@@ -272,7 +293,12 @@ document.addEventListener('DOMContentLoaded', () => {
   setupReveal();
   setupMouseReactiveBg();
   setLetterDelays();
-  startTypewriter();
+  if (roleEl) {
+    startTypewriter();
+  }
 });
 
-document.getElementById("year").textContent = new Date().getFullYear(); // Dynamically set the current year
+const yearEl = document.getElementById('year');
+if (yearEl) {
+  yearEl.textContent = new Date().getFullYear();
+}
