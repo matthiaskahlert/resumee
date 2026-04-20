@@ -1,4 +1,4 @@
-const i18nJson = `
+﻿const i18nJson = `
 {
   "de": {
     "nav.about": "Über mich",
@@ -52,7 +52,8 @@ const i18nJson = `
     "legal.home": "Zur Startseite",
     "footer.home": "Startseite",
     "footer.impressum": "Impressum",
-    "footer.datenschutz": "Datenschutz"
+    "footer.datenschutz": "Datenschutz",
+    "footer.emailLabel": "E-Mail"
   },
   "en": {
     "nav.about": "About",
@@ -106,7 +107,8 @@ const i18nJson = `
     "legal.home": "Back to Home",
     "footer.home": "Home",
     "footer.impressum": "Legal Notice",
-    "footer.datenschutz": "Privacy"
+    "footer.datenschutz": "Privacy",
+    "footer.emailLabel": "Email"
   }
 }
 `;
@@ -243,20 +245,18 @@ function setupMouseReactiveBg() {
 }
 
 function setLetterDelays() {
-  const heroNameEl = document.querySelector(".hero-name");
+  const heroNameEl = document.querySelector('.hero-name');
   if (!heroNameEl) return;
 
-  // Split text into spans
   const text = heroNameEl.textContent;
-  heroNameEl.innerHTML = "";
-  text.split("").forEach((char) => {
-    const span = document.createElement("span");
-    span.innerHTML = char === " " ? "&nbsp;" : char;
+  heroNameEl.innerHTML = '';
+  text.split('').forEach((char) => {
+    const span = document.createElement('span');
+    span.innerHTML = char === ' ' ? '&nbsp;' : char;
     heroNameEl.appendChild(span);
   });
 
-  // Apply animation delays
-  heroNameEl.querySelectorAll("span").forEach((span, idx) => {
+  heroNameEl.querySelectorAll('span').forEach((span, idx) => {
     span.style.animationDelay = `${idx * 0.04}s`;
   });
 }
@@ -284,7 +284,9 @@ document.addEventListener('DOMContentLoaded', () => {
   langToggle?.addEventListener('click', () => {
     currentLang = currentLang === 'de' ? 'en' : 'de';
     applyLanguage();
-    startTypewriter();
+    if (roleEl) {
+      startTypewriter();
+    }
   });
 
   const preferredTheme = localStorage.getItem('theme') || 'light';
