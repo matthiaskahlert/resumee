@@ -5,6 +5,7 @@
     "nav.skills": "Skills",
     "nav.services": "Services",
     "nav.projects": "Projekte",
+    "nav.sideprojects": "Side Projects",
     "nav.experience": "Erfahrung",
     "nav.contact": "Kontakt",
     "hero.eyebrow": "Portfolio",
@@ -23,12 +24,28 @@
     "projects.title": "Projekte",
     "projects.p1.title": "Seafight (Live MMO)",
     "projects.p1.text": "Qualitätssicherung für ein Live-MMO mit Millionen von Spielern. Fokus auf Exploratory Testing, Regression und schnelle Analyse von Live-Issues.",
+    "projects.p1.value": "Impact: QA in einem Live-MMO mit 48M+ registrierten Nutzern und hohen Release-Anforderungen.",
     "projects.p2.title": "DarkOrbit (Live Game)",
     "projects.p2.text": "Technische Validierung komplexer Features und Events in einer produktiven Live-Umgebung. Enge Zusammenarbeit mit Entwicklung zur Sicherstellung stabiler Releases.",
     "projects.p3.title": "Farmerama",
     "projects.p3.text": "Absicherung von Content-Updates und Events mit Fokus auf Stabilität, Performance und User Experience.",
     "projects.p4.title": "Supremacy / Iron Order / Call of War",
     "projects.p4.text": "QA Leadership für Live-Strategiespiele. Verbesserung der Release-Qualität durch strukturierte Testprozesse und enge Zusammenarbeit mit Entwicklungsteams.",
+    "sideprojects.title": "Side Projects",
+    "sideprojects.text": "Persönliche Projekte mit Fokus auf Webentwicklung, Testing und produktnahe Problemlösung.",
+    "sideprojects.github": "GitHub Repo",
+    "sideprojects.live": "Live ansehen",
+    "sideprojects.caseStudy": "Case Study",
+    "sideprojects.empty": "Weitere Side Projects folgen bald.",
+    "case.seafight.title": "Case Study: Seafight",
+    "case.seafight.intro": "Ein Beispielprojekt für Live-Quality unter hoher Last, langen Laufzeiten und kontinuierlichen Releases.",
+    "case.seafight.problem.title": "Ausgangslage",
+    "case.seafight.problem.text": "Live-Betrieb mit hohem Qualitätsanspruch, häufiger Feature-Lieferung und enger Taktung von Regressionen.",
+    "case.seafight.approach.title": "Vorgehen",
+    "case.seafight.approach.text": "Kombination aus Exploratory Testing, strukturierter Regression, klaren QA-Workflows und enger Zusammenarbeit mit Entwicklung und externen Testteams.",
+    "case.seafight.impact.title": "Ergebnis",
+    "case.seafight.impact.text": "Höhere Release-Sicherheit im Live-Betrieb, schnellere Analyse von Produktionsissues und stabilere Auslieferungen über längere Zeiträume.",
+    "case.seafight.cta": "Mehr Details auf Anfrage",
     "experience.title": "Erfahrung",
     "exp.1.title": "QA Lead – Bytro Labs",
     "exp.1.meta": "2024 – 2025",
@@ -60,6 +77,7 @@
     "nav.skills": "Skills",
     "nav.services": "Services",
     "nav.projects": "Projects",
+    "nav.sideprojects": "Side Projects",
     "nav.experience": "Experience",
     "nav.contact": "Contact",
     "hero.eyebrow": "Portfolio",
@@ -78,12 +96,28 @@
     "projects.title": "Projects",
     "projects.p1.title": "Seafight (Live MMO)",
     "projects.p1.text": "Quality assurance for a live MMO with millions of players. Focus on exploratory testing, regression and fast live issue analysis.",
+    "projects.p1.value": "Impact: QA delivery in a live MMO with 48M+ registered users and demanding release cadence.",
     "projects.p2.title": "DarkOrbit (Live Game)",
     "projects.p2.text": "Technical validation of complex features and events in a live production environment. Close collaboration with developers to ensure stable releases.",
     "projects.p3.title": "Farmerama",
     "projects.p3.text": "Ensured quality of content updates and live events with focus on stability, performance and user experience.",
     "projects.p4.title": "Supremacy / Iron Order / Call of War",
     "projects.p4.text": "QA leadership for live strategy games. Improved release quality through structured testing processes and strong dev collaboration.",
+    "sideprojects.title": "Side Projects",
+    "sideprojects.text": "Personal projects focused on web development, testing and practical product problem-solving.",
+    "sideprojects.github": "GitHub Repo",
+    "sideprojects.live": "View Live",
+    "sideprojects.caseStudy": "Case Study",
+    "sideprojects.empty": "More side projects will be added soon.",
+    "case.seafight.title": "Case Study: Seafight",
+    "case.seafight.intro": "A sample project for live quality operations under high load, long product runtime and continuous releases.",
+    "case.seafight.problem.title": "Context",
+    "case.seafight.problem.text": "Live operation with strict quality expectations, frequent feature delivery and constant regression pressure.",
+    "case.seafight.approach.title": "Approach",
+    "case.seafight.approach.text": "Combination of exploratory testing, structured regression, clear QA workflows and close collaboration with developers and external QA teams.",
+    "case.seafight.impact.title": "Outcome",
+    "case.seafight.impact.text": "Higher release confidence in live operations, faster production-issue analysis and more stable delivery over long periods.",
+    "case.seafight.cta": "More details on request",
     "experience.title": "Experience",
     "exp.1.title": "QA Lead – Bytro Labs",
     "exp.1.meta": "2024 – 2025",
@@ -134,6 +168,50 @@ const rolesByLang = {
     'Senior QA Engineer',
     'QA Lead for Live Systems',
     'Test Manager for Reliable Releases'
+  ]
+};
+
+// Add new items here to expand side projects without touching HTML.
+const sideProjectsByLang = {
+  de: [
+    {
+      title: 'Weather App',
+      text: 'Responsive Wetter-App mit zweistufiger Open-Meteo-Integration (Geocoding + Forecast API), asynchronen Requests via async/await, Enter-Shortcut und robuster Fehlerbehandlung bei ungültigen Städteingaben.',
+      stack: 'HTML5 · CSS3 · JavaScript ES6+ · Fetch API · Open-Meteo API',
+      image: 'images/side-project-weather-app.png',
+      imageAlt: 'Screenshot der Weather App',
+      githubUrl: 'https://github.com/matthiaskahlert/weather_app',
+      liveUrl: 'https://matthiaskahlert.github.io/weather_app/'
+    },
+    {
+      title: 'Task Tracker',
+      text: 'Schlanker Task Tracker mit Aufgabenbeschreibung, Fälligkeitsdatum und Prioritätslogik (hoch, mittel, niedrig), inkl. Formularvalidierung, automatischer Sortierung und POST-Integration gegen JSONPlaceholder als Mock-Backend.',
+      stack: 'HTML5 · CSS3 · JavaScript ES6+ · Fetch API · JSONPlaceholder API',
+      image: 'images/side-project-task-tracker.png',
+      imageAlt: 'Screenshot des Task Trackers',
+      githubUrl: 'https://github.com/matthiaskahlert/tasktracker',
+      liveUrl: 'https://matthiaskahlert.github.io/tasktracker/'
+    }
+  ],
+  en: [
+    {
+      title: 'Weather App',
+      text: 'Responsive weather app with a two-step Open-Meteo flow (Geocoding + Forecast API), async/await-based requests, Enter key support and robust error handling for invalid city input.',
+      stack: 'HTML5 · CSS3 · JavaScript ES6+ · Fetch API · Open-Meteo API',
+      image: 'images/side-project-weather-app.png',
+      imageAlt: 'Screenshot of the Weather App',
+      githubUrl: 'https://github.com/matthiaskahlert/weather_app',
+      liveUrl: 'https://matthiaskahlert.github.io/weather_app/'
+    },
+    {
+      title: 'Task Tracker',
+      text: 'Lean task manager with description, due date and priority model (high, medium, low), including form validation, automatic priority sorting and a JSONPlaceholder POST integration as mock backend.',
+      stack: 'HTML5 · CSS3 · JavaScript ES6+ · Fetch API · JSONPlaceholder API',
+      image: 'images/side-project-task-tracker.png',
+      imageAlt: 'Screenshot of the Task Tracker',
+      githubUrl: 'https://github.com/matthiaskahlert/tasktracker',
+      liveUrl: 'https://matthiaskahlert.github.io/tasktracker/'
+    }
   ]
 };
 
@@ -191,6 +269,7 @@ function applyLanguage() {
   document.querySelectorAll('[data-i18n]').forEach((node) => {
     node.textContent = t(node.dataset.i18n);
   });
+  renderSideProjects();
   document.querySelectorAll('[data-lang-block]').forEach((node) => {
     node.hidden = node.getAttribute('data-lang-block') !== currentLang;
   });
@@ -202,6 +281,83 @@ function applyLanguage() {
       currentLang === 'de' ? 'Zu Englisch wechseln' : 'Switch to German'
     );
   }
+}
+
+function renderSideProjects() {
+  const listEl = document.getElementById('sideProjectsList');
+  if (!listEl) {
+    return;
+  }
+
+  const projects = sideProjectsByLang[currentLang] || sideProjectsByLang[DEFAULT_LANG] || [];
+  listEl.innerHTML = '';
+
+  if (!projects.length) {
+    const empty = document.createElement('p');
+    empty.textContent = t('sideprojects.empty');
+    listEl.appendChild(empty);
+    return;
+  }
+
+  projects.forEach((project) => {
+    const card = document.createElement('article');
+    card.className = 'project-card side-project-card';
+    card.setAttribute('role', 'listitem');
+
+    const image = document.createElement('img');
+    image.src = project.image;
+    image.alt = project.imageAlt;
+    image.loading = 'lazy';
+    image.addEventListener('error', () => {
+      image.src = 'images/side-project-placeholder.svg';
+    });
+
+    const body = document.createElement('div');
+    body.className = 'project-body';
+
+    const title = document.createElement('h3');
+    title.textContent = project.title;
+
+    const text = document.createElement('p');
+    text.textContent = project.text;
+
+    const stack = document.createElement('p');
+    stack.className = 'stack';
+    stack.textContent = project.stack;
+
+    const linkRow = document.createElement('div');
+    linkRow.className = 'project-links';
+
+    const github = document.createElement('a');
+    github.className = 'project-link';
+    github.href = project.githubUrl;
+    github.target = '_blank';
+    github.rel = 'noopener noreferrer';
+    github.textContent = t('sideprojects.github');
+
+    const live = document.createElement('a');
+    live.className = 'project-link';
+    live.href = project.liveUrl;
+    live.target = '_blank';
+    live.rel = 'noopener noreferrer';
+    live.textContent = t('sideprojects.live');
+
+    linkRow.append(github, live);
+
+    if (project.caseStudyUrl) {
+      const caseStudy = document.createElement('a');
+      caseStudy.className = 'project-link';
+      caseStudy.href = project.caseStudyUrl;
+      caseStudy.target = '_blank';
+      caseStudy.rel = 'noopener noreferrer';
+      caseStudy.textContent = t('sideprojects.caseStudy');
+      linkRow.append(caseStudy);
+    }
+
+    body.append(title, text, stack, linkRow);
+    card.append(image, body);
+    listEl.append(card);
+  });
 }
 
 function resetTypewriter() {
