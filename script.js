@@ -83,6 +83,14 @@
     "case.seafight.impact.text": "Stabile Release-Qualität über 13 Jahre Live-Betrieb. Auszeichnung als MMO of the Year (Best Action Browser MMO 2012). Erfolgreiche Durchführung kritischer Migrationen (Flash→Unity, Browser→Steam). Aufbau und Leitung eines QA-Teams von Grund auf mit etablierten Prozessen, die bis heute gelten.",
     "case.seafight.cta": "Mehr Details auf Anfrage",
     "experience.title": "Erfahrung",
+    "exp.5.title": "Agile Test Engineer – e-velopment GmbH",
+    "exp.5.meta": "seit Juni 2026",
+    "exp.5.text": "Konzeption, Durchführung und Dokumentation von Tests für User Stories der Software 360e mit Fokus auf WMS im zweiwöchentlichen Sprint. Verantwortung für manuelle End-to-End-, UAT- und erfahrungsbasierte Tests sowie die Weiterentwicklung automatisierter Integrations- und UI-Tests im Webclient als Java-Tests mit JUnit und Selenium auf Basis der User Stories.",
+    "exp.5.stack": "Agile Testing · Java · UI Testing · Integration Testing · WMS · UAT · Sprint Delivery",
+    "exp.6.title": "Weiterbildung Software Developer",
+    "exp.6.meta": "Oktober 2025 – Mai 2026",
+    "exp.6.text": "Erfolgreich abgeschlossene Weiterbildung zum Software Developer (1000 UE, Gesamtergebnis 100%) mit fundierter Praxis in JavaScript, Python, Java, Flutter und weiteren Technologien – inkl. OOP, REST-APIs, Datenbanken, UI-Entwicklung, Testing und Performance.",
+    "exp.6.stack": "JavaScript · Python · Java · Flutter · REST APIs · Databases · UI Design · Testing",
     "exp.1.title": "QA Lead – Bytro Labs",
     "exp.1.meta": "2024 – 2025",
     "exp.1.text": "Verantwortlich für die Release-Qualität mehrerer Live-Strategiespiele. Einführung strukturierter QA-Prozesse, Verbesserung von Teststrategien und enge Zusammenarbeit mit Entwicklungsteams zur nachhaltigen Stabilisierung der Releases.",
@@ -188,6 +196,14 @@
     "case.seafight.impact.text": "Stable release quality across 13 years of live operations. Awarded MMO of the Year (Best Action Browser MMO 2012). Successful delivery of critical migrations (Flash→Unity, browser→Steam). Built and led a QA team from the ground up with processes and standards that endured throughout the project's lifetime.",
     "case.seafight.cta": "More details on request",
     "experience.title": "Experience",
+    "exp.5.title": "Agile Test Engineer – e-velopment GmbH",
+    "exp.5.meta": "Since June 2026",
+    "exp.5.text": "Conceptualization, execution and documentation of tests for user stories in the 360e software with a focus on WMS in biweekly sprint cycles. Responsible for manual end-to-end, UAT and exploratory testing, as well as developing and improving automated integration and UI tests for the web client as Java tests with JUnit and Selenium based on user stories.",
+    "exp.5.stack": "Agile Testing · Java · UI Testing · Integration Testing · WMS · UAT · Sprint Delivery",
+    "exp.6.title": "Professional Training: Software Developer",
+    "exp.6.meta": "October 2025 – May 2026",
+    "exp.6.text": "Successfully completed professional software developer training (1000 lesson units, 100% overall result) with hands-on practice in JavaScript, Python, Java, Flutter and related technologies, including OOP, REST APIs, databases, UI development, testing and performance.",
+    "exp.6.stack": "JavaScript · Python · Java · Flutter · REST APIs · Databases · UI Design · Testing",
     "exp.1.title": "QA Lead – Bytro Labs",
     "exp.1.meta": "2024 – 2025",
     "exp.1.text": "Responsible for release quality across multiple live strategy games. Introduced structured QA processes, improved test strategies and worked closely with development teams to sustainably increase release stability.",
@@ -229,11 +245,13 @@ let navMenu;
 
 const rolesByLang = {
   de: [
+    'Agile Test Engineer',
     'Senior QA Engineer',
     'QA Lead für Live-Systeme',
     'Testmanager für stabile Releases'
   ],
   en: [
+    'Agile Test Engineer',
     'Senior QA Engineer',
     'QA Lead for Live Systems',
     'Test Manager for Reliable Releases'
